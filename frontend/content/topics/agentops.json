@@ -1,0 +1,34 @@
+{
+  "id": "agentops",
+  "slug": "agentops",
+  "canonical_path": "/topic/agentops",
+  "name": "Agentops",
+  "description": "Curated list of github repositories related to agentops.",
+  "content": {
+    "intro": "agentops represents a crucial area in modern software development.",
+    "who_this_topic_is_for": "Developers, engineers, and researchers looking to implement solutions in this domain.",
+    "common_architecture": "Most agentops solutions involve core processing pipelines, API interfaces, and data persistence layers.",
+    "pros_cons": "Pros: Rapid ecosystem growth. Cons: Fast-paced changes require constant learning.",
+    "learning_resources": [
+      "Official Documentation",
+      "GitHub Examples",
+      "Community Tutorials"
+    ]
+  },
+  "use_cases": [
+    "Production deployment",
+    "Prototyping"
+  ],
+  "top_repos": [
+    "mlflow--mlflow"
+  ],
+  "related_topics": [
+    "machine-learning",
+    "python-tools"
+  ],
+  "comparison_links": [],
+  "seo_metadata": {
+    "title": "Best Agentops GitHub Repositories",
+    "description": "Explore the top agentops repositories. Compare architectures, use cases, and pick the best tool."
+  }
+}

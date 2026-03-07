@@ -1,0 +1,34 @@
+{
+  "id": "data-science",
+  "slug": "data-science",
+  "canonical_path": "/topic/data-science",
+  "name": "Data Science",
+  "description": "Curated list of github repositories related to data-science.",
+  "content": {
+    "intro": "data-science represents a crucial area in modern software development.",
+    "who_this_topic_is_for": "Developers, engineers, and researchers looking to implement solutions in this domain.",
+    "common_architecture": "Most data-science solutions involve core processing pipelines, API interfaces, and data persistence layers.",
+    "pros_cons": "Pros: Rapid ecosystem growth. Cons: Fast-paced changes require constant learning.",
+    "learning_resources": [
+      "Official Documentation",
+      "GitHub Examples",
+      "Community Tutorials"
+    ]
+  },
+  "use_cases": [
+    "Production deployment",
+    "Prototyping"
+  ],
+  "top_repos": [
+    "ray-project--ray"
+  ],
+  "related_topics": [
+    "machine-learning",
+    "python-tools"
+  ],
+  "comparison_links": [],
+  "seo_metadata": {
+    "title": "Best Data Science GitHub Repositories",
+    "description": "Explore the top data-science repositories. Compare architectures, use cases, and pick the best tool."
+  }
+}

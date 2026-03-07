@@ -1,0 +1,66 @@
+{
+  "id": "PrefectHQ/prefect",
+  "slug": "PrefectHQ-prefect",
+  "canonical_path": "/repo/PrefectHQ/prefect",
+  "generated_at": "2026-03-07T18:30:48.860622Z",
+  "source_updated_at": "2026-03-07T15:50:08Z",
+  "repo_metadata": {
+    "owner": "PrefectHQ",
+    "name": "prefect",
+    "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+    "stars": 21786,
+    "forks": 2142,
+    "primary_language": "Python",
+    "default_branch": "main",
+    "license": "Apache-2.0"
+  },
+  "primary_topic": "automation",
+  "related_topics": [
+    "data",
+    "data-engineering",
+    "data-ops"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [
+      "pyproject.toml"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "prefect by PrefectHQ - Explain, Architecture & Alternatives",
+    "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
+  },
+  "content": {
+    "what_it_does": "prefect is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "pyproject.toml"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

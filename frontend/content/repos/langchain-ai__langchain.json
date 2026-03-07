@@ -1,0 +1,62 @@
+{
+  "id": "langchain-ai/langchain",
+  "slug": "langchain-ai-langchain",
+  "canonical_path": "/repo/langchain-ai/langchain",
+  "generated_at": "2026-03-07T18:30:32.067310Z",
+  "source_updated_at": "2026-03-07T18:25:28Z",
+  "repo_metadata": {
+    "owner": "langchain-ai",
+    "name": "langchain",
+    "description": "The agent engineering platform",
+    "stars": 128550,
+    "forks": 21110,
+    "primary_language": "Python",
+    "default_branch": "master",
+    "license": "MIT"
+  },
+  "primary_topic": "agents",
+  "related_topics": [
+    "ai",
+    "ai-agents",
+    "anthropic"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "langchain by langchain-ai - Explain, Architecture & Alternatives",
+    "description": "The agent engineering platform"
+  },
+  "content": {
+    "what_it_does": "langchain is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": []
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

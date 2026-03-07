@@ -1,0 +1,66 @@
+{
+  "id": "ray-project/ray",
+  "slug": "ray-project-ray",
+  "canonical_path": "/repo/ray-project/ray",
+  "generated_at": "2026-03-07T18:30:45.610426Z",
+  "source_updated_at": "2026-03-07T18:30:27Z",
+  "repo_metadata": {
+    "owner": "ray-project",
+    "name": "ray",
+    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+    "stars": 41633,
+    "forks": 7298,
+    "primary_language": "Python",
+    "default_branch": "master",
+    "license": "Apache-2.0"
+  },
+  "primary_topic": "data-science",
+  "related_topics": [
+    "deep-learning",
+    "deployment",
+    "distributed"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [
+      "pyproject.toml"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "ray by ray-project - Explain, Architecture & Alternatives",
+    "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
+  },
+  "content": {
+    "what_it_does": "ray is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "pyproject.toml"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

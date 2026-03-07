@@ -1,0 +1,27 @@
+{
+  "id": "typescript",
+  "slug": "typescript",
+  "canonical_path": "/language/typescript",
+  "name": "TypeScript",
+  "content": {
+    "intro": "TypeScript is a popular programming language widely used across the industry.",
+    "common_use_cases": [
+      "Web Backend",
+      "Data Science",
+      "Automation",
+      "Tooling"
+    ]
+  },
+  "representative_repos": [
+    "vercel--ai"
+  ],
+  "related_topics": [
+    "agents",
+    "api",
+    "audio"
+  ],
+  "seo_metadata": {
+    "title": "Top TypeScript GitHub Repositories",
+    "description": "Discover amazing TypeScript projects on GitHub. View popular frameworks and libraries."
+  }
+}

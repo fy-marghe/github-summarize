@@ -1,0 +1,66 @@
+{
+  "id": "run-llama/llama_index",
+  "slug": "run-llama-llama_index",
+  "canonical_path": "/repo/run-llama/llama_index",
+  "generated_at": "2026-03-07T18:30:43.628895Z",
+  "source_updated_at": "2026-03-07T18:24:29Z",
+  "repo_metadata": {
+    "owner": "run-llama",
+    "name": "llama_index",
+    "description": "LlamaIndex is the leading document agent and OCR platform",
+    "stars": 47447,
+    "forks": 6919,
+    "primary_language": "Python",
+    "default_branch": "main",
+    "license": "MIT"
+  },
+  "primary_topic": "agents",
+  "related_topics": [
+    "application",
+    "data",
+    "fine-tuning"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [
+      "pyproject.toml"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "llama_index by run-llama - Explain, Architecture & Alternatives",
+    "description": "LlamaIndex is the leading document agent and OCR platform"
+  },
+  "content": {
+    "what_it_does": "llama_index is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "pyproject.toml"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

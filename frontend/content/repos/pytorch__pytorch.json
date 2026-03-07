@@ -1,0 +1,68 @@
+{
+  "id": "pytorch/pytorch",
+  "slug": "pytorch-pytorch",
+  "canonical_path": "/repo/pytorch/pytorch",
+  "generated_at": "2026-03-07T18:30:39.675460Z",
+  "source_updated_at": "2026-03-07T18:28:30Z",
+  "repo_metadata": {
+    "owner": "pytorch",
+    "name": "pytorch",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "stars": 98020,
+    "forks": 27104,
+    "primary_language": "Python",
+    "default_branch": "main",
+    "license": "NOASSERTION"
+  },
+  "primary_topic": "autograd",
+  "related_topics": [
+    "deep-learning",
+    "gpu",
+    "machine-learning"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [
+      "pyproject.toml",
+      "requirements.txt"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "pytorch by pytorch - Explain, Architecture & Alternatives",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+  },
+  "content": {
+    "what_it_does": "pytorch is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "pyproject.toml",
+      "requirements.txt"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

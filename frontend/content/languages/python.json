@@ -1,0 +1,36 @@
+{
+  "id": "python",
+  "slug": "python",
+  "canonical_path": "/language/python",
+  "name": "Python",
+  "content": {
+    "intro": "Python is a popular programming language widely used across the industry.",
+    "common_use_cases": [
+      "Web Backend",
+      "Data Science",
+      "Automation",
+      "Tooling"
+    ]
+  },
+  "representative_repos": [
+    "langchain-ai--langchain",
+    "tiangolo--fastapi",
+    "huggingface--transformers",
+    "pytorch--pytorch",
+    "scikit-learn--scikit-learn",
+    "run-llama--llama_index",
+    "ray-project--ray",
+    "mlflow--mlflow",
+    "PrefectHQ--prefect",
+    "apache--airflow"
+  ],
+  "related_topics": [
+    "agents",
+    "api",
+    "audio"
+  ],
+  "seo_metadata": {
+    "title": "Top Python GitHub Repositories",
+    "description": "Discover amazing Python projects on GitHub. View popular frameworks and libraries."
+  }
+}
