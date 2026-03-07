@@ -1,0 +1,40 @@
+{
+  "id": "python",
+  "slug": "python",
+  "canonical_path": "/language/python",
+  "name": "Python",
+  "generation_meta": {
+    "provider": "rule_based",
+    "model": "none",
+    "fallback_used": false
+  },
+  "content": {
+    "intro": "Python is a powerful programming language backed by a large ecosystem. This page highlights some of the most notable open-source repositories built using Python.",
+    "common_use_cases": [
+      "Core backend and infrastructure services utilizing Python's strengths.",
+      "Tooling and automation scripts widely adopted by the community.",
+      "Specialized frameworks and libraries."
+    ]
+  },
+  "representative_repos": [
+    "langchain-ai--langchain",
+    "tiangolo--fastapi",
+    "huggingface--transformers",
+    "pytorch--pytorch",
+    "scikit-learn--scikit-learn",
+    "run-llama--llama_index",
+    "ray-project--ray",
+    "mlflow--mlflow",
+    "PrefectHQ--prefect",
+    "apache--airflow"
+  ],
+  "related_topics": [
+    "agents",
+    "api",
+    "audio"
+  ],
+  "seo_metadata": {
+    "title": "Top Python GitHub Repositories",
+    "description": "Discover amazing Python projects on GitHub. View popular frameworks and libraries."
+  }
+}

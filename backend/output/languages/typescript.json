@@ -1,0 +1,31 @@
+{
+  "id": "typescript",
+  "slug": "typescript",
+  "canonical_path": "/language/typescript",
+  "name": "TypeScript",
+  "generation_meta": {
+    "provider": "rule_based",
+    "model": "none",
+    "fallback_used": false
+  },
+  "content": {
+    "intro": "TypeScript is a powerful programming language backed by a large ecosystem. This page highlights some of the most notable open-source repositories built using TypeScript.",
+    "common_use_cases": [
+      "Core backend and infrastructure services utilizing TypeScript's strengths.",
+      "Tooling and automation scripts widely adopted by the community.",
+      "Specialized frameworks and libraries."
+    ]
+  },
+  "representative_repos": [
+    "vercel--ai"
+  ],
+  "related_topics": [
+    "agents",
+    "api",
+    "audio"
+  ],
+  "seo_metadata": {
+    "title": "Top TypeScript GitHub Repositories",
+    "description": "Discover amazing TypeScript projects on GitHub. View popular frameworks and libraries."
+  }
+}

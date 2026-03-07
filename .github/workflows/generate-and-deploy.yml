@@ -1,0 +1,94 @@
+name: Generate and Deploy
+
+on:
+  schedule:
+    # 毎日 UTC 17:00 (JST 02:00) に自動実行
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+    # 手動実行用トリガー
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+        working-directory: ./backend
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: './frontend/package-lock.json'
+
+      - name: Install Node dependencies
+        run: npm ci
+        working-directory: ./frontend
+
+      - name: Data Generation (repo収集 & 生成)
+        env:
+          # OpenAIなどのプロバイダーを利用する場合のみ、コメントアウトを外して要設定
+          # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python src/main.py
+        working-directory: ./backend
+
+      - name: Quality Check (品質計測確認)
+        # main.py の実行結果として出力された内容やエラーがないか確認
+        run: |
+          if [ -f "src/tools/quality_check.py" ]; then
+            python src/tools/quality_check.py
+          else
+            echo "quality_check.py not found, skipping explicit check step (assuming main.py handles it)."
+          fi
+        working-directory: ./backend
+
+      - name: Clean up Stale Content (フロントエンドの古い生成物を削除)
+        # 削除・除外されたリポジトリの情報（stale files）がフロントエンドのビルドに残るのを防ぐため、
+        # 必ず前回またはローカルに残っている古いコンテンツキャッシュをクリーンアップします。
+        run: |
+          echo "Cleaning up old generated content in frontend..."
+          rm -rf frontend/content/repos
+          rm -rf frontend/content/topics
+          rm -rf frontend/content/languages
+          # content ディレクトリ自体がない場合に備えて作成
+          mkdir -p frontend/content
+
+      - name: Sync generated content (backend/output → frontend/content)
+        # バックエンドの最新の生成結果(唯一の正)をフロントエンドのビルド参照先に同期します。
+        # これにより backend と frontend の責務がクリーンに分離されます。
+        run: |
+          echo "Syncing new content from backend/output to frontend/content..."
+          if [ -d "backend/output" ]; then
+            cp -r backend/output/* frontend/content/
+          else
+            echo "Error: backend/output directory does not exist. Generation might have failed."
+            exit 1
+          fi
+
+      - name: Build Next.js (静的サイト生成)
+        run: npm run build
+        working-directory: ./frontend
+
+      - name: Deploy to Cloudflare Pages (Direct Upload)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        # wrangler@3 を指定してメジャーバージョンを固定し、CI破壊リスクを低減
+        run: |
+          npx wrangler@3 pages deploy frontend/out \
+            --project-name=github-seo-site \
+            --branch=main

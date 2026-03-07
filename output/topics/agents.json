@@ -1,0 +1,35 @@
+{
+  "id": "agents",
+  "slug": "agents",
+  "canonical_path": "/topic/agents",
+  "name": "Agents",
+  "description": "Curated list of github repositories related to agents.",
+  "content": {
+    "intro": "agents represents a crucial area in modern software development.",
+    "who_this_topic_is_for": "Developers, engineers, and researchers looking to implement solutions in this domain.",
+    "common_architecture": "Most agents solutions involve core processing pipelines, API interfaces, and data persistence layers.",
+    "pros_cons": "Pros: Rapid ecosystem growth. Cons: Fast-paced changes require constant learning.",
+    "learning_resources": [
+      "Official Documentation",
+      "GitHub Examples",
+      "Community Tutorials"
+    ]
+  },
+  "use_cases": [
+    "Production deployment",
+    "Prototyping"
+  ],
+  "top_repos": [
+    "langchain-ai--langchain",
+    "run-llama--llama_index"
+  ],
+  "related_topics": [
+    "machine-learning",
+    "python-tools"
+  ],
+  "comparison_links": [],
+  "seo_metadata": {
+    "title": "Best Agents GitHub Repositories",
+    "description": "Explore the top agents repositories. Compare architectures, use cases, and pick the best tool."
+  }
+}

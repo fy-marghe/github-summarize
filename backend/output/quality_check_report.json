@@ -1,0 +1,265 @@
+[
+  {
+    "repo_name": "langchain-ai/langchain",
+    "generation_id": "gen_20260307_191828_95",
+    "timestamp": "2026-03-07T19:18:28.859321Z",
+    "quality_score": 95,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2510,
+      "readme_similarity": 0.5464513261223884,
+      "dependencies_mentioned": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": [
+      "READMEの直訳になっている可能性があります(54.6%)。"
+    ]
+  },
+  {
+    "repo_name": "tiangolo/fastapi",
+    "generation_id": "gen_20260307_191831_100",
+    "timestamp": "2026-03-07T19:18:31.779615Z",
+    "quality_score": 100,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2080,
+      "readme_similarity": 0.250036619305698,
+      "dependencies_mentioned": [
+        "api",
+        "async",
+        "asyncio",
+        "fastapi",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": []
+  },
+  {
+    "repo_name": "huggingface/transformers",
+    "generation_id": "gen_20260307_191833_100",
+    "timestamp": "2026-03-07T19:18:33.779531Z",
+    "quality_score": 100,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2490,
+      "readme_similarity": 0.44000451518230044,
+      "dependencies_mentioned": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": []
+  },
+  {
+    "repo_name": "pytorch/pytorch",
+    "generation_id": "gen_20260307_191836_100",
+    "timestamp": "2026-03-07T19:18:36.281209Z",
+    "quality_score": 100,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2361,
+      "readme_similarity": 0.21226943849994906,
+      "dependencies_mentioned": [
+        "autograd",
+        "deep-learning",
+        "gpu",
+        "machine-learning",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": []
+  },
+  {
+    "repo_name": "scikit-learn/scikit-learn",
+    "generation_id": "gen_20260307_191837_100",
+    "timestamp": "2026-03-07T19:18:37.579406Z",
+    "quality_score": 100,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2550,
+      "readme_similarity": 0.38167938931297707,
+      "dependencies_mentioned": [
+        "data-analysis",
+        "data-science",
+        "machine-learning",
+        "python",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": []
+  },
+  {
+    "repo_name": "run-llama/llama_index",
+    "generation_id": "gen_20260307_191839_100",
+    "timestamp": "2026-03-07T19:18:39.658735Z",
+    "quality_score": 100,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2556,
+      "readme_similarity": 0.4520628915947511,
+      "dependencies_mentioned": [
+        "agents",
+        "application",
+        "data",
+        "fine-tuning",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": []
+  },
+  {
+    "repo_name": "ray-project/ray",
+    "generation_id": "gen_20260307_191842_70",
+    "timestamp": "2026-03-07T19:18:42.244374Z",
+    "quality_score": 70,
+    "action": "NOINDEX",
+    "metrics": {
+      "content_length": 2387,
+      "readme_similarity": 0.3587301587301587,
+      "dependencies_mentioned": [
+        "data-science",
+        "deep-learning",
+        "deployment",
+        "distributed",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": [
+      "サイト内の他の記事と非常に類似しています(>81.6%)。"
+    ]
+  },
+  {
+    "repo_name": "mlflow/mlflow",
+    "generation_id": "gen_20260307_191844_70",
+    "timestamp": "2026-03-07T19:18:44.257602Z",
+    "quality_score": 70,
+    "action": "NOINDEX",
+    "metrics": {
+      "content_length": 2429,
+      "readme_similarity": 0.4718923198733174,
+      "dependencies_mentioned": [
+        "agentops",
+        "agents",
+        "ai",
+        "ai-governance",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": [
+      "サイト内の他の記事と非常に類似しています(>81.0%)。"
+    ]
+  },
+  {
+    "repo_name": "PrefectHQ/prefect",
+    "generation_id": "gen_20260307_191846_95",
+    "timestamp": "2026-03-07T19:18:46.492308Z",
+    "quality_score": 95,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2563,
+      "readme_similarity": 0.571659395702052,
+      "dependencies_mentioned": [
+        "automation",
+        "data",
+        "data-engineering",
+        "data-ops",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": [
+      "READMEの直訳になっている可能性があります(57.2%)。"
+    ]
+  },
+  {
+    "repo_name": "apache/airflow",
+    "generation_id": "gen_20260307_191848_100",
+    "timestamp": "2026-03-07T19:18:48.858630Z",
+    "quality_score": 100,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 3016,
+      "readme_similarity": 0.19215174699432358,
+      "dependencies_mentioned": [
+        "airflow",
+        "apache",
+        "apache-airflow",
+        "automation",
+        "python"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": []
+  },
+  {
+    "repo_name": "vercel/ai",
+    "generation_id": "gen_20260307_191850_95",
+    "timestamp": "2026-03-07T19:18:50.969429Z",
+    "quality_score": 95,
+    "action": "INDEX",
+    "metrics": {
+      "content_length": 2396,
+      "readme_similarity": 0.5452151009657594,
+      "dependencies_mentioned": [
+        "anthropic",
+        "artificial-intelligence",
+        "gemini",
+        "generative-ai",
+        "typescript"
+      ]
+    },
+    "flags": {
+      "is_title_duplicate": false,
+      "missing_sections": []
+    },
+    "warnings": [
+      "READMEの直訳になっている可能性があります(54.5%)。"
+    ]
+  }
+]

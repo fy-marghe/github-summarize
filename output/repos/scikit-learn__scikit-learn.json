@@ -1,0 +1,66 @@
+{
+  "id": "scikit-learn/scikit-learn",
+  "slug": "scikit-learn-scikit-learn",
+  "canonical_path": "/repo/scikit-learn/scikit-learn",
+  "generated_at": "2026-03-07T18:30:41.667269Z",
+  "source_updated_at": "2026-03-07T14:21:00Z",
+  "repo_metadata": {
+    "owner": "scikit-learn",
+    "name": "scikit-learn",
+    "description": "scikit-learn: machine learning in Python",
+    "stars": 65320,
+    "forks": 26750,
+    "primary_language": "Python",
+    "default_branch": "main",
+    "license": "BSD-3-Clause"
+  },
+  "primary_topic": "data-analysis",
+  "related_topics": [
+    "data-science",
+    "machine-learning",
+    "python"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [
+      "pyproject.toml"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "scikit-learn by scikit-learn - Explain, Architecture & Alternatives",
+    "description": "scikit-learn: machine learning in Python"
+  },
+  "content": {
+    "what_it_does": "scikit-learn is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "pyproject.toml"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

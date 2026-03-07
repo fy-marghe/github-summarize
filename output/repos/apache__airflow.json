@@ -1,0 +1,66 @@
+{
+  "id": "apache/airflow",
+  "slug": "apache-airflow",
+  "canonical_path": "/repo/apache/airflow",
+  "generated_at": "2026-03-07T18:30:50.972605Z",
+  "source_updated_at": "2026-03-07T17:43:15Z",
+  "repo_metadata": {
+    "owner": "apache",
+    "name": "airflow",
+    "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+    "stars": 44530,
+    "forks": 16613,
+    "primary_language": "Python",
+    "default_branch": "main",
+    "license": "Apache-2.0"
+  },
+  "primary_topic": "airflow",
+  "related_topics": [
+    "apache",
+    "apache-airflow",
+    "automation"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [
+      "pyproject.toml"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "airflow by apache - Explain, Architecture & Alternatives",
+    "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+  },
+  "content": {
+    "what_it_does": "airflow is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "pyproject.toml"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

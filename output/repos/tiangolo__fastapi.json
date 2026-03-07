@@ -1,0 +1,66 @@
+{
+  "id": "tiangolo/fastapi",
+  "slug": "tiangolo-fastapi",
+  "canonical_path": "/repo/tiangolo/fastapi",
+  "generated_at": "2026-03-07T18:30:34.749497Z",
+  "source_updated_at": "2026-03-07T18:30:09Z",
+  "repo_metadata": {
+    "owner": "tiangolo",
+    "name": "fastapi",
+    "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+    "stars": 95981,
+    "forks": 8797,
+    "primary_language": "Python",
+    "default_branch": "master",
+    "license": "MIT"
+  },
+  "primary_topic": "api",
+  "related_topics": [
+    "async",
+    "asyncio",
+    "fastapi"
+  ],
+  "related_languages": [
+    "Python"
+  ],
+  "dependencies": {
+    "files": [
+      "pyproject.toml"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "fastapi by tiangolo - Explain, Architecture & Alternatives",
+    "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+  },
+  "content": {
+    "what_it_does": "fastapi is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "pyproject.toml"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}

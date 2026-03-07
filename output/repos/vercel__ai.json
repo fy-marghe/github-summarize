@@ -1,0 +1,66 @@
+{
+  "id": "vercel/ai",
+  "slug": "vercel-ai",
+  "canonical_path": "/repo/vercel/ai",
+  "generated_at": "2026-03-07T18:30:53.014761Z",
+  "source_updated_at": "2026-03-07T18:24:15Z",
+  "repo_metadata": {
+    "owner": "vercel",
+    "name": "ai",
+    "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+    "stars": 22405,
+    "forks": 3932,
+    "primary_language": "TypeScript",
+    "default_branch": "main",
+    "license": "NOASSERTION"
+  },
+  "primary_topic": "anthropic",
+  "related_topics": [
+    "artificial-intelligence",
+    "gemini",
+    "generative-ai"
+  ],
+  "related_languages": [
+    "TypeScript"
+  ],
+  "dependencies": {
+    "files": [
+      "package.json"
+    ],
+    "detected_packages": [
+      "mock_pkg1",
+      "mock_pkg2"
+    ]
+  },
+  "seo_metadata": {
+    "title": "ai by vercel - Explain, Architecture & Alternatives",
+    "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents "
+  },
+  "content": {
+    "what_it_does": "ai is a generated placeholder description based on the repo.",
+    "key_features": [
+      "Feature A",
+      "Feature B",
+      "Feature C"
+    ],
+    "architecture_overview": "It provides a simple architecture with a main entry point.",
+    "how_to_run": "pip install -r requirements.txt\npython main.py",
+    "important_files": [
+      "package.json"
+    ]
+  },
+  "use_cases": [
+    "MVP Example Use Case"
+  ],
+  "alternatives": [
+    "example/repo-b"
+  ],
+  "related_repos": [
+    "example/repo-c"
+  ],
+  "quality_score": 1.0,
+  "indexing": {
+    "is_indexable": true,
+    "reason": "high_quality_score"
+  }
+}
