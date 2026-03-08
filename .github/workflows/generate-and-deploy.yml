@@ -88,5 +88,5 @@ jobs:
         # wrangler@3 を指定してメジャーバージョンを固定し、CI破壊リスクを低減
         run: |
           npx wrangler@3 pages deploy frontend/out \
-            --project-name=github-seo-site \
+            --project-name=github-summarize \
             --branch=main
